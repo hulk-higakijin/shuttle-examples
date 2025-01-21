@@ -61,6 +61,14 @@ use_cases = ["Web app"]
 tags = ["loco"]
 template = "loco"
 
+[starters.loco-saas]
+title = "Loco SaaS"
+description = "Loco's starter template including Postgresql and Authentication"
+path = "loco/saas"
+use_cases = ["Web app", "Authentication"]
+tags = ["loco"]
+template = "loco"
+
 [starters.poem-hello-world]
 title = "Poem"
 description = "Full-featured and easy-to-use web framework"
